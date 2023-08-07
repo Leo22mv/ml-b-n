@@ -178,7 +178,7 @@ app.post('/login', (req, res) => {
       if (results.length > 0) {
         // res.status(200).send('Inicio de sesión exitoso');
         // console.log(results[0].id_user)
-        res.json(results[0].id_user);
+        res.json(results[0]);
       } else {
         res.status(401).send('Credenciales inválidas');
       }
