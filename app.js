@@ -11,6 +11,7 @@ const corsOptions = {
     origin: "https://e-commerce-f.web.app/"
 };
 
+
 // Conexión a la base de datos
 const mysql = require('mysql');
 
