@@ -104,6 +104,7 @@ const userSchema = `
   CREATE TABLE IF NOT EXISTS user (
     id_user INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255),
+    nombre VARCHAR(255),
     username VARCHAR(255),
     password VARCHAR(255)
   )
