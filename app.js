@@ -110,6 +110,7 @@ const userSchema = `
   )
 `;
 
+
 connection.query(userSchema, (error, results, fields) => {
   if (error) throw error;
   console.log('Tabla user creada o existente');
